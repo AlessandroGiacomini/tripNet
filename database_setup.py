@@ -31,6 +31,7 @@ class Category(Base):
             'id': self.id,
         }
 
+
 class Trip(Base):
     __tablename__ = 'trip'
 
