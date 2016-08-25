@@ -56,7 +56,6 @@ class Trip(Base):
             'price': self.price,
             'transport': self.transport,
             'duration': self.duration,
-            'picture': self.picture,
         }
 
 

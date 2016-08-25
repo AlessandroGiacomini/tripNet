@@ -17,7 +17,6 @@ $ vagrant ssh
 Within the virtual machine change in to the shared directory by running
 
 ```bash
-$ cd /vagrant/catalog
 $ python application.py
 ```
 
