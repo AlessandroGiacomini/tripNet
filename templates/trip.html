@@ -79,6 +79,9 @@
 						<p>{{i.duration}} days</p>
 						<a href='{{url_for('editTrip', category_id = category.id, trip_id=i.id ) }}'>Edit</a> |
 						<a href='{{url_for('deleteTrip', category_id = category.id, trip_id=i.id ) }}'>Delete</a>
+						<br>
+						<br>
+						<h4>by {{ creator.name }}</h4>
 
 					</div>
 				{% endfor %}
