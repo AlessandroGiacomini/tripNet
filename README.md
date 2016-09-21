@@ -17,7 +17,7 @@ $ vagrant ssh
 Within the virtual machine change in to the shared directory by running
 
 ```bash
-$ python application.py
+$ python catalog.py
 ```
 
 Then navigate to localhost:5000 on your favorite browser.
